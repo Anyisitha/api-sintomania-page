@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('pharmacy_name');
             $table->string('chain');
             $table->string('role');
+            $table->string('status');
             $table->string('accepted_terms_date');
             $table->timestamps();
         });
